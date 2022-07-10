@@ -10,7 +10,7 @@ db = SQLAlchemy(app)
 mashmallow = Marshmallow(app)
 
 from .models import *
-from .routes import index, organization, user
+from .routes import organization, user
 from .tools.DataHandler import DataHandler
 
 data_handler = DataHandler('./api/data', ['organization.csv', 'user.csv'])
