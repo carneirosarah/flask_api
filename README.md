@@ -25,10 +25,10 @@ Flask restful API + PostgreSQL database
         username = postgres
         password = <postgreSQL_password>
         database = postgres
-        host = 172.17.0.1 (*)
+        host = 172.17.0.1
         port = 5432
 
-    (*) PostgreSQL container IP address
+    Obs: The host parameter corresponds to PostgreSQL container IP address
      
   (1) Create the API image.
   
