@@ -83,7 +83,8 @@ Flask restful API + PostgreSQL database
     {
         "email": string,
         "first_name": string,
-        "last_name": string
+        "last_name": string,
+        "organization_id": integer
     }
   ]
   ```
@@ -158,7 +159,8 @@ Flask restful API + PostgreSQL database
     {
         "email": string,
         "first_name": string,
-        "last_name": string
+        "last_name": string,
+        "organization_id": integer
     }
   ]
   ```
@@ -175,7 +177,8 @@ Flask restful API + PostgreSQL database
   {
       "email": string,
       "first_name": string,
-      "last_name": string
+      "last_name": string,
+      "organization_id": integer
   }
   ```
   
@@ -200,7 +203,8 @@ Flask restful API + PostgreSQL database
   {
       "email": string,
       "first_name": string,
-      "last_name": string
+      "last_name": string,
+      "organization_id": integer
   }
   ```
   
@@ -227,7 +231,8 @@ Flask restful API + PostgreSQL database
   {
       "email": string,
       "first_name": string,
-      "last_name": string
+      "last_name": string,
+      "organization_id": integer
   }
   ```
   
@@ -243,7 +248,8 @@ Flask restful API + PostgreSQL database
   {
       "email": string,
       "first_name": string,
-      "last_name": string
+      "last_name": string,
+      "organization_id": integer
   }
   ```
 ## Status Codes

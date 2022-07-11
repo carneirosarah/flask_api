@@ -23,6 +23,8 @@ class UserSchema(mashmallow.SQLAlchemyAutoSchema):
     class Meta:
         
         model = User
+    
+    organization_id = mashmallow.auto_field(dump_only= True)
 
 user_schema = UserSchema()
 users_schema = UserSchema(many=True)
