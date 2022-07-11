@@ -28,7 +28,7 @@ Flask restful API + PostgreSQL database
         host = 172.17.0.1
         port = 5432
 
-    Obs: The host parameter corresponds to PostgreSQL container IP address
+  Obs: The host parameter corresponds to PostgreSQL container IP address.
      
   (1) Create the API image.
   
