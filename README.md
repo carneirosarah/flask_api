@@ -18,6 +18,18 @@ Flask restful API + PostgreSQL database
 
 ## Runing the API
 
+  (1) Create a config.ini file as follows:
+
+      [DATABASE]
+
+        username = postgres
+        password = <postgreSQL_password>
+        database = postgres
+        host = 172.17.0.1 (*)
+        port = 5432
+
+    (*) PostgreSQL container IP address
+     
   (1) Create the API image.
   
     sudo docker build -t flask_api -f Dockerfile .
